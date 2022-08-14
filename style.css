@@ -1,0 +1,203 @@
+body{
+
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #1B262C;
+    margin: 0;
+    padding: 0;
+
+    
+    
+
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    padding-top: 0%;
+
+
+
+    background-color: #0F4C75;
+    box-shadow: #BBE1FA;
+ 
+    width: 100%;
+    height: 25%;
+    padding: 7px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.left{
+    display: flex;
+    align-items: center;
+    color: #3282B8;
+
+}
+
+
+.left h1 {
+    margin: 15px;
+    font-size: 32px;
+
+
+}
+
+
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #3282B8;
+   
+}
+
+.right:hover{
+    cursor: pointer;
+
+
+}
+.right a {
+    margin: 15px;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 32px;
+    color: #3282B8;
+    align-items: center;
+    height: 1px;
+
+}
+
+.right a:hover {
+    color: #BBE1FA;
+
+
+}
+
+
+.box {
+    background-color:#074d7b;
+    width: 280px;
+    height: 380px;
+    margin:50px;
+    color: #3282B8;
+    box-shadow: #6d8697 0px 5px 15px;
+    opacity: 0.5;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.box img {
+    width: 100%;
+    height: 50%;
+ 
+}
+
+.box:hover{
+    cursor: pointer;
+
+    
+}
+
+
+
+.box:hover {
+    box-shadow: #BBE1FA 0px 5px 15px;
+    opacity: 1;
+}
+
+.container { 
+    margin: 5px;
+    display: flex; 
+    justify-content: center;
+   
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+.container h1{
+    display: none;
+
+
+
+}
+.gotop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #023c5c;
+    bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(139, 184, 232);
+    font-size: 22px;
+
+}
+
+.bo{
+    font-size: 20px;
+    margin: 50px;
+    color: azure;
+    justify-content: center;
+
+
+}
+
+.cool{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.thecard{
+    transform-style: preserve-3d;
+    transform: all 0.5 ease;
+    position: absolute;
+    width: 280px;
+    height: 380px;
+    background-color:#074d7b;
+
+}
+.thecard:hover{
+    transform: rotateY(100deg);
+}
+
+.thefront{
+    position: absolute;
+    width: 280px;
+    height: 380px;
+    background-color:#074d7b;
+    backface-visibility: hidden;
+    color: #3282B8;
+    text-align: center;
+}
+
+
+.theback{
+    position: absolute;
+    width: 280px;
+    height: 380px;
+    background-color:#074d7b;
+    backface-visibility: hidden;
+    color: #3282B8;
+    transform: rotateY(100deg);
+}
+
